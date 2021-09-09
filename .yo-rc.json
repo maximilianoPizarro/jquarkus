@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.quarkus.app"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "jquarkus",
+    "packageName": "com.quarkus.app",
+    "packageFolder": "com/quarkus/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "jwtSecretKey": "YWQzZGY1YzRlYzg0YjAzYjRlNjA3M2M1NjA5MmY0OGVkYTI0MWU1ZDY3OTJiNDBhMGE2MDQxNjczNmQ0ZDc4MWU5Y2ZkMWY3OWFlNjQ1MmIzYzVhMmRlOGRlODJkMTgzYzRhM2VjNjViZDg0NmQ5MGI5ZDU3ZWE4ZDE5YzBkMTc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "creationTimestamp": 1631218709112,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "1.1.1"
+      }
+    ],
+    "enableTranslation": false,
+    "blueprints": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "1.1.1"
+      }
+    ]
+  }
+}
